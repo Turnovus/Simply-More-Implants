@@ -24,21 +24,7 @@
         </stages>
 
         <comps>
-            <li Class="SimplyMoreImplants.HediffCompProperties_SeverityFromJob">
-                <jobs>
-                    <li>
-                        <key>Reign</key>
-                        <value>1</value>
-                    </li>
-                    <li>
-                        <key>Meditate</key>
-                        <value>1</value>
-                    </li>
-                </jobs>
-                <!-- Pawn must be on throne/spot to recieve bonus -->
-                <requiredTargets><li>A</li></requiredTargets>
-                <minTargetDist>1</minTargetDist>
-            </li>
+            <li><compClass>SimplyMoreImplants.HediffComp_SeverityFromMeditation</compClass></li>
         </comps>
     </HediffDef>
 
