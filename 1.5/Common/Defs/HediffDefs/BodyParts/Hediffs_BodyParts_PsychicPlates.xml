@@ -20,7 +20,7 @@
 		</stages>
 	</HediffDef>
 	
-	<ThingDef ParentName="BodyPartBionicImperialBase">
+	<ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
 		<defName>Turn_SkullPlateFoil</defName>
 		<label>psychic foil skullplate</label>
 		<description>A plate made of psychic foil, specially made to be fitted into a humanlike skull. When installed, it will reduce the user's psychic sensitivity.</description>

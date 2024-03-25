@@ -21,7 +21,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_PsychicAssistant</defName>
         <label>psychic assistant</label>
         <description>A small computer connected to the brain. It contains an AI that aids the user in the mentally taxing process that is psycasting, effectively reducing overall psyfocus cost. It also has a limited ability to maintain certain long-term effects on the behalf of the user, negating up to 100 points of minimum neural heat.</description>

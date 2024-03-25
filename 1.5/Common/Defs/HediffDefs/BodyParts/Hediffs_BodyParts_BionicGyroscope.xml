@@ -87,7 +87,7 @@
 		</comps>
 	</HediffDef>
 	
-	<ThingDef ParentName="BodyPartBionicImperialBase">
+	<ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
 		<defName>Turn_BionicGyroscope</defName>
 		<label>bionic gyroscope</label>
 		<description>A high-precision gyroscope housed in the core of the body and connected to the user's nervous system. It provides a highly enhanced kinesthetic sense. However, this effect takes training to use effectively, and scales with the host's melee skill.</description>

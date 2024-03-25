@@ -54,7 +54,7 @@
         </comps>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_CaravanImplant</defName>
         <label>wayfarer implant</label>
         <description>A suite of tools and bio-manipulators, designed to keep the user comfortable during long trips. Additionally, it can aid skilled plantworkers when foraging along the trail.</description>

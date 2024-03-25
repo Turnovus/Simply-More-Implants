@@ -37,7 +37,7 @@
         </comps>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_LumbarRig</defName>
         <label>lumbar rig</label>
         <description>A lattice-mesh installed in the torso, near the lower spine. A combination of servomotors and restorative nanites allow this device to adapt to and to reverse age-related conditions like bad backs and frailty. Because this is such a delicate procedure, however, the rig adapts quite slowly and may take some time to compensate for these issues.</description>

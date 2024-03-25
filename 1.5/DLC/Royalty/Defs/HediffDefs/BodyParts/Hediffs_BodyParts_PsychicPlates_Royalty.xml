@@ -22,7 +22,7 @@
 		</stages>
 	</HediffDef>
 	
-	<ThingDef ParentName="BodyPartBionicImperialBase">
+	<ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
 		<defName>Turn_SkullPlateEltex</defName>
 		<label>eltex skullplate</label>
 		<description>A plate made of psychic-enhancing eltex material, specially made to be fitted into a humanlike skull. When installed, it will increase the user's psychic sensitivity and entropy recovery.</description>
