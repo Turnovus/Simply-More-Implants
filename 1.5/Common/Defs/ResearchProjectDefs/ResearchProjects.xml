@@ -36,7 +36,6 @@
 		<!-- Slightly less common so that traders aren't flooded by our numerous techprints. -->
 		<techprintCommonality MayRequire="Ludeon.RimWorld.Royalty">0.7</techprintCommonality>
 		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">750</techprintMarketValue>
-		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">1000</techprintMarketValue>
 		
 		<tab>Turn_ImplantManufacturing</tab>
 		
@@ -56,7 +55,7 @@
 	<ResearchProjectDef Abstract="True" Name="Turn_BaseImplant_TierB" ParentName="Turn_BaseImplant_TierA">
 		<techLevel>Ultra</techLevel>
 
-		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">2000</techprintMarketValue>
+		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">1500</techprintMarketValue>
 
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
