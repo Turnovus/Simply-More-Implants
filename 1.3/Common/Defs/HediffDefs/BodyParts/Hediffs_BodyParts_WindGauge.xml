@@ -54,7 +54,7 @@
         </comps>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_WindGauge</defName>
         <label>bionic wind gauge</label>
         <description>A neural computer connected to an array of sensors located just beneath the skin. It gives the user a superhuman sense of wind speed and direction, capable of detecting even the smallest fluctuations. A skilled marksman could use this information to increase his ranged accuracy. An unskilled marksman, however, would not benefit from this device.</description>

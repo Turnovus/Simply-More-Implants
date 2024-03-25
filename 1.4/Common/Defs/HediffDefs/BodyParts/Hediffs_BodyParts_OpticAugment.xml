@@ -55,7 +55,7 @@
 		</comps>
 	</HediffDef>
 	
-	<ThingDef ParentName="BodyPartBionicImperialBase">
+	<ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
 		<defName>Turn_OpticAugment</defName>
 		<label>ophthalmic augment</label>
 		<description>An implant installed in the optic center of the brain. It consists of an optical enhancement capable of seeing colors that the human mind cannot comprehend, and a neural augment that allows these colors to be comprehended. This augment will increase the quality of goods crafted by its user, but only if they are already skilled at their job.</description>

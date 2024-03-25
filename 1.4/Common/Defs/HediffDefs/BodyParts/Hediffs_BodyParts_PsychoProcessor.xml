@@ -24,7 +24,7 @@
         </comps>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_PsychoProcessor</defName>
         <label>psycho-processor</label>
         <description>A neural computer capable of using brain tissue to perform computations, it will generate research passively while its user is sleeping. More intellegent pawns tend to have more organized neural pathways, and will therefore generate more research.</description>

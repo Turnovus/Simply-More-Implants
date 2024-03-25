@@ -20,7 +20,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_Biocapsule</defName>
         <label>biocapsule</label>
         <description>A small device contained in the abdomen, it uses mechanites to constantly prepare the body for biosculpting. When the host does enter a biosculpting pod, it will take less time for the biosculpting cycle to complete.</description>

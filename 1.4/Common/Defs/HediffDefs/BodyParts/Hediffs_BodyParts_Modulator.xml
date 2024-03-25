@@ -31,7 +31,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_SmoothModulator</defName>
         <label>smooth voice modulator</label>
         <description>A soundwave modulator installed alongside the larynx, designed to give the user's voice a more gentle and inoffensive intonation. This voice inspires trust in friends, but enemies will usually find that it sounds pathetic.</description>
@@ -132,7 +132,7 @@
         </stages>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_RoughModulator</defName>
         <label>rough voice modulator</label>
         <description>A soundwave modulator installed alongside the larynx, it gives the voice an intense and threatening quality. This helps with intimidating others and gaining the upper hand in a dispute, but serves as an obstacle when trying to make friends.</description>

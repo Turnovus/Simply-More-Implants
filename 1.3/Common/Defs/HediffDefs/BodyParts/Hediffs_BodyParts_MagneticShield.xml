@@ -24,7 +24,7 @@
 		</comps>
 	</HediffDef>
 	
-	<ThingDef ParentName="BodyPartBionicImperialBase">
+	<ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
 		<defName>Turn_MagneticShield</defName>
 		<label>electromagnetic shield</label>
 		<description>A lattice of coil-shaped wires that cover the brain. Reduces the duration of negative effects from electromagnetic interference on brain implants.</description>

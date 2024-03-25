@@ -30,7 +30,7 @@
         </comps>
     </HediffDef>
 
-    <ThingDef ParentName="BodyPartBionicImperialBase">
+    <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_CellStabilizer</defName>
         <label>cellular stabilizer</label>
         <description>An implant connected to the circulatory system containing a swarm of mechanites, designed to correct health conditions on a cellular level. The mechanites will periodically cure chronic conditions caused by age-related cellular degeneration. Because this is such a delicate procedure, however, the mechanites work rather slowly, and existing health conditions may take some time to treat.</description>
