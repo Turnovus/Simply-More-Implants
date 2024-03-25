@@ -28,10 +28,15 @@
 	</ResearchProjectDef>
 	
 	<!-- Research bases for implants. -->
-	<ResearchProjectDef Abstract="True" Name="Turn_BaseImplant_TierA" ParentName="BaseBodyPartEmpire_TierA">
+	<ResearchProjectDef Abstract="True" Name="Turn_BaseImplant_TierA">
+		<baseCost>2000</baseCost>
+    	<techLevel>Spacer</techLevel>
+
+		<techprintCount MayRequire="Ludeon.RimWorld.Royalty">1</techprintCount>
 		<!-- Slightly less common so that traders aren't flooded by our numerous techprints. -->
-		<techprintCommonality>0.7</techprintCommonality>
-		<techprintMarketValue>750</techprintMarketValue>
+		<techprintCommonality MayRequire="Ludeon.RimWorld.Royalty">0.7</techprintCommonality>
+		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">750</techprintMarketValue>
+		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">1000</techprintMarketValue>
 		
 		<tab>Turn_ImplantManufacturing</tab>
 		
@@ -40,27 +45,31 @@
 			<li>MicroelectronicsBasics</li>
 		</hiddenPrerequisites>
 
-		<!-- The base research from Royalty doesn't have this for type-A implants -->
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		
-		<heldByFactionCategoryTags Inherit="False">
+		<heldByFactionCategoryTags  MayRequire="Ludeon.RimWorld.Royalty">
 			<li>Empire</li>
 			<li>Outlander</li>
 		</heldByFactionCategoryTags>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef Abstract="True" Name="Turn_BaseImplant_TierB" ParentName="BaseBodyPartEmpire_TierB">
-		<techprintCommonality>0.7</techprintCommonality>
-		<techprintMarketValue>850</techprintMarketValue>
-		
-		<tab>Turn_ImplantManufacturing</tab>
+	<ResearchProjectDef Abstract="True" Name="Turn_BaseImplant_TierB" ParentName="Turn_BaseImplant_TierA">
+		<techLevel>Ultra</techLevel>
 
-		<!-- The base type-B research from royalty already contains requirements for the hi-tech bench and multianalyzer -->
-		
+		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">2000</techprintMarketValue>
+
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
 		<hiddenPrerequisites>
 			<li>Prosthetics</li>
 			<li>Fabrication</li>
 		</hiddenPrerequisites>
+
+		<heldByFactionCategoryTags MayRequire="Ludeon.RimWorld.Royalty" Inherit="False">
+			<li>Empire</li>
+		</heldByFactionCategoryTags>
 	</ResearchProjectDef>
 
 	<!-- Tier A -->
@@ -135,15 +144,6 @@
 
 		<researchViewX>2.00</researchViewX>
   		<researchViewY>1.65</researchViewY>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
-		<defName>Turn_PsycasterImplants</defName>
-		<label>psycaster implants</label>
-		<description>Craft implants to further improve the capabilities of psychically-empowered individuals.</description>
-
-		<researchViewX>3.00</researchViewX>
-		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
