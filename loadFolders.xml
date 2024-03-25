@@ -12,4 +12,11 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
         <li IfModActive="VanillaExpanded.VPsycastsE">VPsycastsE</li>
 	</v1.4>
+
+    <v1.5>
+        <li>1.5/Common</li>
+        <li IfModActive="Ludeon.RimWorld.Royalty">1.5/DLC/Royalty</li>
+        <li IfModActive="Ludeon.RimWorld.Ideology">1.5/DLC/Ideology</li>
+        <li IfModActive="VanillaExpanded.VPsycastsE">1.5/Mods/VPsycastsE</li>
+    </v1.5>
 </loadFolders>
