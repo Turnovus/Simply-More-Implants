@@ -9,6 +9,16 @@
 
 		<researchViewX>3.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->psycasting augments</li>
+
+				<li>subject_story->became a respected and feared wielder of psychic power</li>
+
+				<li>subject_gerund->crafting psycaster augments</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 
 </Defs>

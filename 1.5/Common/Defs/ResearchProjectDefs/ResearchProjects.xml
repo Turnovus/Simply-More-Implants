@@ -80,7 +80,19 @@
 
 		<researchViewX>0.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->skullplates</li>
+				<li>subject->psychic plates</li>
+
+				<li>subject_story->looked shamefully upon the human skull</li>
+
+				<li>subject_gerund->implanting plates into the head</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
+
 
 	<ResearchProjectDef ParentName="Turn_BaseImplant_TierA">
 		<defName>Turn_VoiceModulation</defName>
@@ -89,8 +101,20 @@
 
 		<researchViewX>0.00</researchViewX>
   		<researchViewY>0.55</researchViewY>
+
+		  <generalRules>
+			<rulesStrings>
+				<li>subject->voice modulation</li>
+
+				<li>subject_story->developed a throat infection</li>
+				<li>subject_story->wanted to become more convincing</li>
+
+				<li>subject_gerund->modulating voices</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 
+	
 	<ResearchProjectDef ParentName="Turn_BaseImplant_TierA">
 		<defName>Turn_CaravanImplants</defName>
 		<label>long-distance travel utilities</label>
@@ -98,7 +122,18 @@
 
 		<researchViewX>0.00</researchViewX>
 		<researchViewY>1.10</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->caravaning</li>
+
+				<li>subject_story->nearly starved on an expedition</li>
+
+				<li>subject_gerund->integrating caravaning equipment</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
+
 
 	<ResearchProjectDef ParentName="Turn_BaseImplant_TierA">
 		<defName>Turn_HumanUtilization</defName>
@@ -107,8 +142,21 @@
 
 		<researchViewX>1.00</researchViewX>
 		<researchViewY>0.00</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->human resources</li>
+				<li>subject->gray matter circuits</li>
+
+				<li>subject_story->was tasked by a large corporation with maximizing productivity</li>
+				<li>subject_story->detested sleep as a waste of time</li>
+
+				<li>subject_gerund->crafting human-exploiting implants</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 	
+
 	<!-- Tier B -->
 	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
 		<defName>Turn_CombatSkillImplants</defName>
@@ -119,6 +167,7 @@
   		<researchViewY>0.00</researchViewY>
 	</ResearchProjectDef>
 	
+
 	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
 		<defName>Turn_QualityImplants</defName>
 		<label>output quality enhancements</label>
@@ -126,8 +175,19 @@
 
 		<researchViewX>2.00</researchViewX>
   		<researchViewY>0.55</researchViewY>
+
+		  <generalRules>
+			<rulesStrings>
+				<li>subject->optical refinements</li>
+
+				<li>subject_story->had reached the human limit of artistic expression, yet endeavored to go further</li>
+
+				<li>subject_gerund->crafting work-enhancing implants</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 	
+
 	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
 		<defName>Turn_CompatibilityImplants</defName>
 		<label>bionic integrations</label>
@@ -135,7 +195,18 @@
 
 		<researchViewX>2.00</researchViewX>
   		<researchViewY>1.10</researchViewY>
+
+		  <generalRules>
+			<rulesStrings>
+				<li>subject->integration</li>
+
+				<li>subject_story->had received so many artificial implants as to contribute to adverse health effects</li>
+
+				<li>subject_gerund->integrating implants</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
+
 
 	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
 		<defName>Turn_LifespanImplants</defName>
@@ -144,6 +215,16 @@
 
 		<researchViewX>2.00</researchViewX>
   		<researchViewY>1.65</researchViewY>
+
+		  <generalRules>
+			<rulesStrings>
+				<li>subject->lifespan enhancing implants</li>
+
+				<li>subject_story->feared the unending march of death</li>
+
+				<li>subject_gerund->crafting life-extending implants</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 
 </Defs>

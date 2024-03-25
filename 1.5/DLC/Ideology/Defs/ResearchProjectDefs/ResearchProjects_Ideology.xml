@@ -11,6 +11,16 @@
 
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->transhumanism</li>
+
+				<li>subject_story->desired a more niche assortment of augments</li>
+
+				<li>subject_gerund->crafting transhumanist-focused implants</li>
+			</rulesStrings>
+		</generalRules>
 	</ResearchProjectDef>
 	
 </Defs>
