@@ -17,9 +17,6 @@
                     <PawnBeauty>1</PawnBeauty>
                     <TradePriceImprovement>0.2</TradePriceImprovement>
                     <SocialImpact>0.25</SocialImpact>
-                    <ArrestSuccessChance>-0.3</ArrestSuccessChance>
-                    <NegotiationAbility>-0.2</NegotiationAbility>
-                    <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">-0.35</SuppressionPower>
                 </statOffsets>
                 <capMods>
                     <li>
@@ -34,7 +31,7 @@
     <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_SmoothModulator</defName>
         <label>smooth voice modulator</label>
-        <description>A soundwave modulator installed alongside the larynx, designed to give the user's voice a more gentle and inoffensive intonation. This voice inspires trust in friends, but enemies will usually find that it sounds pathetic.</description>
+        <description>A soundwave modulator installed alongside the larynx, designed to give the user's voice a more gentle and inoffensive intonation.</description>
         <descriptionHyperlinks><RecipeDef>Turn_InstallSmoothModulator</RecipeDef></descriptionHyperlinks>
 
         <graphicData>
@@ -115,9 +112,6 @@
         <stages>
             <li>
                 <statOffsets>
-                    <PawnBeauty>-1</PawnBeauty>
-                    <TradePriceImprovement>-0.3</TradePriceImprovement>
-                    <SocialImpact>-0.25</SocialImpact>
                     <ArrestSuccessChance>0.3</ArrestSuccessChance>
                     <NegotiationAbility>0.4</NegotiationAbility>
                     <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.35</SuppressionPower>
@@ -135,7 +129,7 @@
     <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
         <defName>Turn_RoughModulator</defName>
         <label>rough voice modulator</label>
-        <description>A soundwave modulator installed alongside the larynx, it gives the voice an intense and threatening quality. This helps with intimidating others and gaining the upper hand in a dispute, but serves as an obstacle when trying to make friends.</description>
+        <description>A soundwave modulator installed alongside the larynx, it gives the voice an intense and threatening quality. This helps with intimidating others and gaining the upper hand in a dispute.</description>
         <descriptionHyperlinks><RecipeDef>Turn_InstallRoughModulator</RecipeDef></descriptionHyperlinks>
 
         <graphicData>
