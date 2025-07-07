@@ -2,7 +2,7 @@ using System.Reflection;
 using System.Xml;
 using Verse;
 
-namespace SimplyMoreImplants.PatchOperations
+namespace SimplyMoreImplants
 {
     public class PatchOperationModSetting : PatchOperation
     {
