@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+    <SimplyMoreImplants.DisableTechprints.Title>Disable techprints</SimplyMoreImplants.DisableTechprints.Title>
+    <SimplyMoreImplants.DisableTechprints.Description>(REQUIRES RESTART) Removes techprint requirements from SMI projects that have them.</SimplyMoreImplants.DisableTechprints.Description>
+</LanguageData>

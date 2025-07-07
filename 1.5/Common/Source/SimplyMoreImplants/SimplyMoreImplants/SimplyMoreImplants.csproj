@@ -35,11 +35,25 @@
       <HintPath>..\..\..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>..\..\..\..\..\..\..\RimWorldWin64_Data\Managed\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comps\HediffComps\SeverityFromMeditation.cs" />
     <Compile Include="Comps\HediffComps\SleepResearch\HediffCompProperties_SleepResearch.cs" />
     <Compile Include="Comps\HediffComps\SleepResearch\HediffComp_SleepResearch.cs" />
+    <Compile Include="Mod.cs" />
+    <Compile Include="PatchOperations\PatchOperationModSetting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
