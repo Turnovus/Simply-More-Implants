@@ -217,7 +217,10 @@
 
 		  <generalRules>
 			<rulesStrings>
-				<li>subject->lifespan enhancing implants</li>
+				<li>subject->immortality</li>
+				<li>subject->longevity</li>
+				<li>subject->healthcare</li>
+				<li>subject->lifespan enhancement</li>
 
 				<li>subject_story->feared the unending march of death</li>
 

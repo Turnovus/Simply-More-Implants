@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    
+    <Operation Class="SimplyMoreImplants.PatchOperationModSetting">
+        <setting>disableTechprints</setting>
+        <operation Class="PatchOperationRemove">
+            <xpath>Defs/ResearchProjectDef[@Name="Turn_BaseImplant_TierA" or @Name="Turn_BaseImplant_TierB"]/techprintCount</xpath>
+        </operation>
+    </Operation>
+
+    <Operation Class="SimplyMoreImplants.PatchOperationModSetting">
+        <setting>disableTechprints</setting>
+        <operation Class="PatchOperationRemove">
+            <xpath>Defs/ResearchProjectDef[@Name="Turn_BaseImplant_TierA" or @Name="Turn_BaseImplant_TierB"]/heldByFactionCategoryTags</xpath>
+        </operation>
+    </Operation>
+    
+</Patch>
