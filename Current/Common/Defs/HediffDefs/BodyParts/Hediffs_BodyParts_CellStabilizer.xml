@@ -28,6 +28,17 @@
                 </whitelist>
             </li>
         </comps>
+
+        <modExtensions>
+            <li Class="CF.HediffExtension">
+                <hediffGiversCannotGiveByStage>
+                    <li>
+                        <li>Alzheimers</li>
+                        <li>Dementia</li>
+                    </li>
+                </hediffGiversCannotGiveByStage>
+            </li>
+        </modExtensions>
     </HediffDef>
 
     <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">

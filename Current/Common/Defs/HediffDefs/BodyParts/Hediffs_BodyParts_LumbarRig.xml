@@ -35,6 +35,17 @@
                 <regenInterval>10~20</regenInterval>
             </li>
         </comps>
+
+        <modExtensions>
+            <li Class="CF.HediffExtension">
+                <hediffGiversCannotGiveByStage>
+                    <li>
+                        <li>BadBack</li>
+                        <li>Frail</li>
+                    </li>
+                </hediffGiversCannotGiveByStage>
+            </li>
+        </modExtensions>
     </HediffDef>
 
     <ThingDef ParentName="BodyPartSimplyMoreImplantsBase">
