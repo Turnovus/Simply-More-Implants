@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <ThingDef Name="BodyPartSimplyMoreImplantsBase" ParentName="BodyPartBionicBase" Abstract="True">
+        <tradeTags>
+            <li MayRequire="Ludeon.RimWorld.Royalty">ImplantEmpireCommon</li>
+        </tradeTags>
+        <techHediffsTags>
+            <li MayRequire="Ludeon.RimWorld.Royalty">ImplantEmpireCommon</li>
+        </techHediffsTags>
+    </ThingDef>
+
+</Defs>

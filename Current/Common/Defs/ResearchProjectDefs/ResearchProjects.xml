@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Research for precursor items -->
+	<ResearchProjectDef>
+		<defName>Turn_MedicalComponentResearch</defName>
+		<label>medical components</label>
+		<description>Manufacture sterilized, high-precision components for use in medical implants.</description>
+		
+		<tab>Turn_ImplantManufacturing</tab>
+		
+		<baseCost>7500</baseCost>
+		<techLevel>Spacer</techLevel>
+
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+
+		<hiddenPrerequisites>
+			<li>Prosthetics</li>
+			<li>Fabrication</li>
+		</hiddenPrerequisites>
+
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		
+	</ResearchProjectDef>
+	
+	<!-- Research bases for implants. -->
+	<ResearchProjectDef Abstract="True" Name="Turn_BaseImplant_TierA">
+		<baseCost>2000</baseCost>
+    	<techLevel>Spacer</techLevel>
+
+		<techprintCount MayRequire="Ludeon.RimWorld.Royalty">1</techprintCount>
+		<!-- Slightly less common so that traders aren't flooded by our numerous techprints. -->
+		<techprintCommonality MayRequire="Ludeon.RimWorld.Royalty">0.7</techprintCommonality>
+		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">750</techprintMarketValue>
+		
+		<tab>Turn_ImplantManufacturing</tab>
+		
+		<hiddenPrerequisites>
+			<li>Prosthetics</li>
+			<li>MicroelectronicsBasics</li>
+		</hiddenPrerequisites>
+
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		
+		<heldByFactionCategoryTags  MayRequire="Ludeon.RimWorld.Royalty">
+			<li>Empire</li>
+			<li>Outlander</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef Abstract="True" Name="Turn_BaseImplant_TierB" ParentName="Turn_BaseImplant_TierA">
+		<techLevel>Ultra</techLevel>
+
+		<techprintMarketValue MayRequire="Ludeon.RimWorld.Royalty">1500</techprintMarketValue>
+
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+
+		<hiddenPrerequisites>
+			<li>Prosthetics</li>
+			<li>Fabrication</li>
+		</hiddenPrerequisites>
+
+		<heldByFactionCategoryTags MayRequire="Ludeon.RimWorld.Royalty" Inherit="False">
+			<li>Empire</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<!-- Tier A -->
+	<ResearchProjectDef ParentName="Turn_BaseImplant_TierA">
+		<defName>Turn_SkullPlatePsychic</defName>
+		<label>psychic skullplates</label>
+		<description>Modify existing psychic gear into specialized plates that can be safely installed into a humanlike skull.</description>
+
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->skullplates</li>
+				<li>subject->psychic plates</li>
+
+				<li>subject_story->looked shamefully upon the human skull</li>
+
+				<li>subject_gerund->implanting plates into the head</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef ParentName="Turn_BaseImplant_TierA">
+		<defName>Turn_VoiceModulation</defName>
+		<label>voice modulation</label>
+		<description>Create implants capable of changing the sound of the user's voice.</description>
+
+		<researchViewX>0.00</researchViewX>
+  		<researchViewY>0.55</researchViewY>
+
+		  <generalRules>
+			<rulesStrings>
+				<li>subject->voice modulation</li>
+
+				<li>subject_story->developed a throat infection</li>
+				<li>subject_story->wanted to become more convincing</li>
+
+				<li>subject_gerund->modulating voices</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+	
+	<ResearchProjectDef ParentName="Turn_BaseImplant_TierA">
+		<defName>Turn_CaravanImplants</defName>
+		<label>long-distance travel utilities</label>
+		<description>Create implants to aid in travelling around the planet.</description>
+
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>1.10</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->caravaning</li>
+
+				<li>subject_story->nearly starved on an expedition</li>
+
+				<li>subject_gerund->integrating caravaning equipment</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef ParentName="Turn_BaseImplant_TierA">
+		<defName>Turn_HumanUtilization</defName>
+		<label>human utilization</label>
+		<description>Create implants that will allow you to utilize your human resources in unique ways.</description>
+
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+
+		<generalRules>
+			<rulesStrings>
+				<li>subject->human resources</li>
+				<li>subject->gray matter circuits</li>
+
+				<li>subject_story->was tasked by a large corporation with maximizing productivity</li>
+				<li>subject_story->detested sleep as a waste of time</li>
+
+				<li>subject_gerund->crafting human-exploiting implants</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	
+
+	<!-- Tier B -->
+	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
+		<defName>Turn_CombatSkillImplants</defName>
+		<label>combat skill enhancements</label>
+		<description>Craft various bionic devices that can enhance combat abilities when installed in capable pawns.</description>
+
+		<researchViewX>2.00</researchViewX>
+  		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+
+	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
+		<defName>Turn_QualityImplants</defName>
+		<label>output quality enhancements</label>
+		<description>Craft implants dedicated to improving the quality of your pawns' creations.</description>
+
+		<researchViewX>2.00</researchViewX>
+  		<researchViewY>0.55</researchViewY>
+
+		  <generalRules>
+			<rulesStrings>
+				<li>subject->optical refinements</li>
+
+				<li>subject_story->had reached the human limit of artistic expression, yet endeavored to go further</li>
+
+				<li>subject_gerund->crafting work-enhancing implants</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+	
+
+	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
+		<defName>Turn_CompatibilityImplants</defName>
+		<label>bionic integrations</label>
+		<description>Craft implants that help mitigate the negative effects of other implants.</description>
+
+		<researchViewX>2.00</researchViewX>
+  		<researchViewY>1.10</researchViewY>
+
+		  <generalRules>
+			<rulesStrings>
+				<li>subject->integration</li>
+
+				<li>subject_story->had received so many artificial implants as to contribute to adverse health effects</li>
+
+				<li>subject_gerund->integrating implants</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef ParentName="Turn_BaseImplant_TierB">
+		<defName>Turn_LifespanImplants</defName>
+		<label>lifespan-increasing implants</label>
+		<description>Craft implants that prevent users' quality of life from worsening with age.</description>
+
+		<researchViewX>2.00</researchViewX>
+  		<researchViewY>1.65</researchViewY>
+
+		  <generalRules>
+			<rulesStrings>
+				<li>subject->immortality</li>
+				<li>subject->longevity</li>
+				<li>subject->healthcare</li>
+				<li>subject->lifespan enhancement</li>
+
+				<li>subject_story->feared the unending march of death</li>
+
+				<li>subject_gerund->crafting life-extending implants</li>
+			</rulesStrings>
+		</generalRules>
+	</ResearchProjectDef>
+
+</Defs>

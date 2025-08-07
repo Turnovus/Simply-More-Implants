@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>Turn_ImplantManufacturing</defName>
+		<label>Implant Manufacturing</label>
+		<generalTitle>Advanced impplant manufacture</generalTitle>
+		<generalDescription>Unlock advanced specialized implants.</generalDescription>
+	</ResearchTabDef>
+
+</Defs>
