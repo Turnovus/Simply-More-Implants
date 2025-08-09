@@ -26,6 +26,7 @@
                     <li>ChemicalDamageModerate</li>
                     <li>ChemicalDamageSevere</li>
                 </whitelist>
+                <regenInterval>10~20</regenInterval>
             </li>
         </comps>
 
